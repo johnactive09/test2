@@ -19,4 +19,4 @@ jobs:
 
     - name: Deploy to EC2
       run: |
-        ssh -o StrictHostKeyChecking=no ec2-user@E54.177.110.238 "bash ~/app/deploy.sh"
+        ssh -o StrictHostKeyChecking=no ec2-user@54.177.110.238 "bash ~/app/deploy.sh"
